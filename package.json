@@ -2,5 +2,8 @@
   "name": "chart_exp",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serialize-javascript": "^2.1.2"
+  }
 }
