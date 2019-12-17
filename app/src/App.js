@@ -6,6 +6,7 @@ import MyColumnChart from './comp/MyColumnChart';
 // import BarChartVRainbow from './comp/BarChartVRainbow';
 import BarChartExample from './comp/BarChartVRainbow';
 import TableRainbowOne from './comp/TableRainbow_1';
+import ButtonRainbow from './comp/ButtonRainbow';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <MyChart />
         <BarChartExample/>
         <TableRainbowOne/>
+        <ButtonRainbow/>
     </div>
   );
 }
