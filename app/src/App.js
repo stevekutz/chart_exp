@@ -7,6 +7,7 @@ import MyColumnChart from './comp/MyColumnChart';
 import BarChartExample from './comp/BarChartVRainbow';
 import TableRainbowOne from './comp/TableRainbow_1';
 import ButtonRainbow from './comp/ButtonRainbow';
+import TimePickerExample from './comp/TimePicker';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <BarChartExample/>
         <TableRainbowOne/>
         <ButtonRainbow/>
+        <TimePickerExample/>
     </div>
   );
 }
