@@ -8,7 +8,8 @@ import BarChartExample from './comp/BarChartVRainbow';
 import TableRainbowOne from './comp/TableRainbow_1';
 import ButtonRainbow from './comp/ButtonRainbow';
 import TimePickerExample from './comp/TimePicker';
-
+// import ReCaptchaExample from './comp/Recaptcha';
+import SimpleVisualPicker from './comp/VisualPicker';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <TableRainbowOne/>
         <ButtonRainbow/>
         <TimePickerExample/>
+        <SimpleVisualPicker/>
     </div>
   );
 }
