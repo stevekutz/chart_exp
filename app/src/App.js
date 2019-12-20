@@ -10,6 +10,7 @@ import ButtonRainbow from './comp/ButtonRainbow';
 import TimePickerExample from './comp/TimePicker';
 // import ReCaptchaExample from './comp/Recaptcha';
 import SimpleVisualPicker from './comp/VisualPicker';
+import SliderExample from './comp/SliderExample';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <ButtonRainbow/>
         <TimePickerExample/>
         <SimpleVisualPicker/>
+        <SliderExample/>
     </div>
   );
 }
