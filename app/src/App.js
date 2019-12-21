@@ -11,6 +11,7 @@ import TimePickerExample from './comp/TimePicker';
 // import ReCaptchaExample from './comp/Recaptcha';
 import SimpleVisualPicker from './comp/VisualPicker';
 import SliderExample from './comp/SliderExample';
+import SimpleRatingExample from './comp/SimpleRatingExample';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <TimePickerExample/>
         <SimpleVisualPicker/>
         <SliderExample/>
+        <SimpleRatingExample/>
     </div>
   );
 }
