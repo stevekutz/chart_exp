@@ -14,6 +14,9 @@ import SliderExample from './comp/SliderExample';
 import SimpleRatingExample from './comp/SimpleRatingExample';
 import MyBarChart from './comp/MyBarChart';
 
+const labels = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+const values = [1, 0, 1, 2, 3, 4, 5];
+
 function App() {
   return (
     <div>
@@ -25,7 +28,7 @@ function App() {
         <SimpleVisualPicker/>
         <SliderExample/>
         <SimpleRatingExample/>
-        <MyBarChart/>
+        <MyBarChart labels = {labels} values = {values}/>
     </div>
   );
 }
