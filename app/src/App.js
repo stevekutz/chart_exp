@@ -12,6 +12,7 @@ import TimePickerExample from './comp/TimePicker';
 import SimpleVisualPicker from './comp/VisualPicker';
 import SliderExample from './comp/SliderExample';
 import SimpleRatingExample from './comp/SimpleRatingExample';
+import MyBarChart from './comp/MyBarChart';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <SimpleVisualPicker/>
         <SliderExample/>
         <SimpleRatingExample/>
+        <MyBarChart/>
     </div>
   );
 }
