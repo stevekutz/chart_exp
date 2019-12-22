@@ -1,5 +1,5 @@
 import React from 'react';
-import {Chart, DataSet} from 'react-rainbow-components';
+import {Chart, Dataset} from 'react-rainbow-components';
 
 
 const datasets = [ 
@@ -10,14 +10,14 @@ const datasets = [
     }
 ]
 
-const labels = [0, 1, 2, 3, 4, 5];
+const labels = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 const arr = [1, 0, 1, 2, 3, 4, 5];
 
 const MyBarChart = () => {
-
+    
     return (
         <Chart labels = {labels} type = 'bar'>
-            <DataSet title = 'simple' values = {arr} backgroundColor = 'lightblue'/>
+            <Dataset title = 'simple' values = {arr} backgroundColor = 'lightblue'/>
         </Chart>
 
     )

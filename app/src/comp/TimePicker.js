@@ -11,7 +11,7 @@ class TimePickerExample extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            time: [],
+            time: undefined,
             isLoading: true,
         };
     }
